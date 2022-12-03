@@ -79,6 +79,10 @@ function nicknameGenerator(name){
 
 * 2012-2017 EMPEROR ALEXANDER I ST. PETERSBURG STATE TRANSPORT UNIVERSITY
 
-Ground transportation and technological means
+  *Ground transportation and technological means*
 
-Lifting and transport, construction, road vehicles and equipment
+  *Lifting and transport, construction, road vehicles and equipment*
+
+## Language
+
+* English (B1)
