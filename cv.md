@@ -36,12 +36,14 @@ In my opinion web applications directions is more intersting for me then others,
 
 ## Sample Code
 
-```function vowelOne(s){
+```
+function vowelOne(s){
   return s.replace(/[^aeiou]/ig, 0).replace(/[aeiou]/ig, 1);
 }
 ```
 
-```function sentence(List) {
+```
+function sentence(List) {
    let arr = List.sort((a, b) => Object.keys(a) - Object.keys(b));
  
  let res = [];
@@ -53,7 +55,8 @@ In my opinion web applications directions is more intersting for me then others,
 }
 ```
 
-```function nicknameGenerator(name){
+```
+function nicknameGenerator(name){
   
   if(name.length < 4){
   return "Error: Name too short"
