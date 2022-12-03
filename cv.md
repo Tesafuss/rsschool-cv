@@ -75,6 +75,10 @@ function nicknameGenerator(name){
 }
 ```
 
+## Experience
+
+[My CV](https://tesafuss.github.io/rsschool-cv/cv)
+
 ## Education
 
 * 2012-2017 EMPEROR ALEXANDER I ST. PETERSBURG STATE TRANSPORT UNIVERSITY
