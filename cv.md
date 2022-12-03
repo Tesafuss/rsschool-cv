@@ -21,3 +21,53 @@ In my opinion web applications directions is more intersting for me then others,
 2)You already can see what you do.
 
 3)Web applications is more usefull (*it can work on everything where is an Internet connection and display*). 
+
+## Skills
+
+* HTML
+
+* CSS
+
+* Basic JavaScript
+
+* Figma
+
+* GitHub
+
+## Sample Code
+
+```function vowelOne(s){
+  return s.replace(/[^aeiou]/ig, 0).replace(/[aeiou]/ig, 1);
+}
+```
+
+```function sentence(List) {
+   let arr = List.sort((a, b) => Object.keys(a) - Object.keys(b));
+ 
+ let res = [];
+ for(let i =0; i < List.length; i++){
+   res[i] = '';
+ }
+  
+  return arr.map((a, index) => res[index] = res[index] + Object.values(a)).join(' ');
+}
+```
+
+```function nicknameGenerator(name){
+  
+  if(name.length < 4){
+  return "Error: Name too short"
+}
+  
+  let arr = ['a','e', 'i', 'o', 'u'];
+
+  
+  for (let i = 0; i < arr.length; i++){
+    if(name[2] === arr[i]){
+      return name.slice(0, 4);
+    }
+  }
+  return name.slice(0, 3);
+
+}
+```
