@@ -3,13 +3,48 @@
   src: url("../assets/fonts/Poppins-Light.ttf");
   font-weight: 300;
 }
+
 @font-face {
   font-family: "Popins";
   src: url("../assets/fonts/Poppins-Medium.ttf");
   font-weight: 500;
 }
+
 @font-face {
   font-family: "Popins";
   src: url("../assets/fonts/Poppins-SemiBold.ttf");
   font-weight: 600;
+}
+
+.tittle {
+  padding-top: 150px;
+  margin-left: 125px;
+
+  font-family: "Popins";
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 58px;
+  letter-spacing: 5px;
+  color: #454545;
+
+  &::after {
+    content: "";
+
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+    display: block;
+    width: 130px;
+    height: 5px;
+
+    background: #454545;
+  }
+}
+
+.txt--regular {
+  font-family: "Popins";
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 45px;
+  color: #000000;
 }

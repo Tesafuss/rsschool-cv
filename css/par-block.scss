@@ -1,0 +1,46 @@
+// * {
+//   margin: 0 auto;
+//   padding: 0;
+//   box-sizing: border-box;
+// }
+
+.par-block--small {
+  width: 530px;
+  background: #F8DCBF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.par-block--average {
+  width: 910px;
+  background: #F1E7DD;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.par-block--big {
+  width: 1440px;
+  background: #F7D8D5;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.par-block--left {
+  border-radius: 0 20px 20px 0;
+}
+
+.par-block--mid {
+  border-radius: 20px;
+}
+
+.par-block--right {
+  border-radius: 20px 0 0 20px;
+}
+
+.par-block--top {
+  border-radius: 0 0 20px 20px;
+}
+
+.par-block--bot {
+  border-radius: 20px 20px 0 0;
+}
