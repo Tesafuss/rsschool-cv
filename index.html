@@ -13,29 +13,29 @@
 </head>
 
 <body>
-  <header>
-    <nav class="menu par-block--top par-block--big">
+  <header class="par-block--top par-block--max">
+    <nav class="menu">
       <ul class="menu__list">
         <li class="menu__item">
-          <a href="#contacts" class="menu__link txt--regular">Contacts</a>
+          <a href="#contacts" class="a_link menu__txt">Contacts</a>
         </li>
         <li class="menu__item">
-          <a href="#summary" class="menu__link txt--regular">Summary</a>
+          <a href="#summary" class="a_link menu__txt">Summary</a>
         </li>
         <li class="menu__item">
-          <a href="#skills" class="menu__link txt--regular">Skills</a>
+          <a href="#skills" class="a_link menu__txt">Skills</a>
         </li>
         <li class="menu__item">
-          <a href="#code" class="menu__link txt--regular">Sample Code</a>
+          <a href="#code-sample" class="a_link menu__txt">Code sample</a>
         </li>
         <li class="menu__item">
-          <a href="#experience" class="menu__link txt--regular">Experience</a>
+          <a href="#experience" class="a_link menu__txt">Experience</a>
         </li>
         <li class="menu__item">
-          <a href="#education" class="menu__link txt--regular">Education</a>
+          <a href="#education" class="a_link menu__txt">Education</a>
         </li>
         <li class="menu__item">
-          <a href="#language" class="menu__link txt--regular">Language</a>
+          <a href="#lang" class="a_link menu__txt">Language</a>
         </li>
       </ul>
     </nav>
@@ -45,54 +45,118 @@
     <section class="container person">
       <img class="person__photo" src="./assets/img/ava.png" alt="Dmitriy's photo" width="375" height="500" />
       <div class="person__desription">
-        <h1 class="person__name">Dmitriy Sukhin</h1>
-        <h2 class="person__job">Junior Front-end Developer</h2>
-        <div class="par summary">
-          <h2 class="par__title" id="#summary">Summary</h2>
-          <p class="summary__description">
-            Hi. My name is Dmitriy Sukhin, 28 years old.<br />
-            I have been interested in computers and application development a
-            lot of time. But often I postponed it. Now, i decided
-            <em>“stop putting up with it”</em> and found course from
-            Yandex.Practicum. I looked course of <a href="https://practicum.yandex.ru/start-in-programming/">career
-              guidance</a> and
-            choose web applications.<br />
-            In my opinion web applications directions is more intersting for
-            me then others, and frontend is my way. Why? So we have some
-            points to explain it:<br />
-            1)It’s beautifull. <em>(but not always)</em><br />
-            2)You already can see what you do.<br />
-            3)Web applications is more usefull.
-            <em>(it can work on everything where is an Internet connection and
-              display)</em>
-          </p>
-        </div>
+        <h1 class="person__name name">Dmitriy Sukhin</h1>
+        <h2 class="person__job job">Junior Front-end Developer</h2>
       </div>
     </section>
 
-    <section class="container contacts" id="#contacts">
-      <p>Contacts</p>
+    <section class="container summary par-block--big par-block--left" id="summary">
+      <h2 class="main-tittle">Summary</h2>
+      <p class="summary__desc description">
+        Hi. My name is Dmitriy Sukhin, 28 years old.<br />
+        I have been interested in computers and application development a
+        lot of time. But often I postponed it. Now, i decided
+        <em>“stop putting up with it”</em> and found course from
+        Yandex.Practicum. I looked course of <a href="https://practicum.yandex.ru/start-in-programming/">career
+          guidance</a> and
+        choose web applications.<br />
+        In my opinion web applications directions is more intersting for
+        me then others, and frontend is my way. Why? So we have some
+        points to explain it:<br />
+        1)It’s beautifull. <em>(but not always)</em><br />
+        2)You already can see what you do.<br />
+        3)Web applications is more usefull.
+        <em>(it can work on everything where is an Internet connection and
+          display)</em>
+      </p>
+    </section>
+
+    <section class="container contacts par-block--small par-block--right" id="contacts">
+      <p class="main-tittle">Contacts</p>
       <ul class="contacts__list">
-        <li class="contacts__item phone">
-          <p>Phone</p>
-          <a href="tel:+79110012239" class="contacts__link">+7 911 001 22 39</a>
+        <li class="contacts__item sub-tittle">
+          <p class="">Phone</p>
+          <a href="tel:+79110012239" class="a_link contacts__link description">+7 911 001 22 39</a>
         </li>
-        <li class="contacts__item email">
+        <li class="contacts__item sub-tittle">
           <p>Email</p>
-          <a href="mailto:D.Suhin94@gmail.com&body=HelloFromCV" class="contacts__link">D.Suhin94@gmail.com</a>
+          <a href="mailto:D.Suhin94@gmail.com&body=HelloFromCV" class="a_link contacts__link description">D.Suhin94@gmail.com</a>
         </li>
-        <li class="contacts__item vkontakt">
+        <li class="contacts__item sub-tittle">
           <p>VK</p>
-          <a href="https://vk.com/id13790105" class="contacts__link">Dmitriy Sukhin</a>
+          <a href="https://vk.com/id13790105" class="a_link contacts__link description">Dmitriy Sukhin</a>
         </li>
-        <li class="contacts__item discord">
-          <p>Discord</p>
-          <p>Dmitiry (@Tesafuss)<br>
+        <li class="contacts__item sub-tittle">
+          <p class="sub-tittle">Discord</p>
+          <p class="description">Dmitiry (@Tesafuss)<br>
             Skrozapar#9634</p>
         </li>
       </ul>
     </section>
+
+    <section class="container skill par-block--average par-block--left" id="skills">
+      <p class="main-tittle">Skills</p>
+      <h2 class="sub-tittle">
+        <ul class="skill__list">
+          <li class="skill__item sub-tittle">HTML</li>
+          <li class="skill__item sub-tittle">CSS</li>
+          <li class="skill__item sub-tittle">Basic JavaScript</li>
+          <li class="skill__item sub-tittle">GitHub</li>
+          <li class="skill__item sub-tittle">Figma</li>
+        </ul>
+      </h2>
+    </section>
+
+    <section class="container code-sample par-block--average par-block--right" id="code-sample">
+      <p class="main-tittle">Code sample</p>
+      <pre>
+      <code>
+        function vowelOne(s){
+          return s.replace(/[^aeiou]/ig, 0).replace(/[aeiou]/ig, 1);
+        }
+      </code>
+    </pre>
+    <pre>
+      <code>
+        function sentence(List) {
+          let arr = List.sort((a, b) => Object.keys(a) - Object.keys(b));
+        
+        let res = [];
+        for(let i =0; i < List.length; i++){
+          res[i] = '';
+        }
+         
+         return arr.map((a, index) => 
+         res[index] = res[index] + Object.values(a)).join(' ');
+      </code>
+    </pre>
+      </code>
+    </pre>
+    </section>
+
+    <section class="container experience par-block--small par-block--left" id="experience">
+      <a href="https://tesafuss.github.io/rsschool-cv/cv" class="a_link">My CV</a>
+    </section>
+
+    <section class="container education par-block--average par-block--mid" id="education">
+      2012-2017 EMPEROR ALEXANDER I ST. PETERSBURG STATE TRANSPORT UNIVERSITY
+
+      Ground transportation and technological means*
+    
+      Lifting and transport, construction, road vehicles and equipment
+    </section>
+
+    <section class="container lang par-block--small par-block--right" id="lang">
+      <ul class="lang__list">
+        <li class="lang__item">Russian (Native)</li>
+        <li class="lang__item">English (B1)</li>
+      </ul>
+    </section>
   </main>
+
+  <footer class="par-block--max  par-block--bot">
+
+  </footer>
 </body>
 
 </html>

@@ -13,19 +13,40 @@
   src: url("../assets/fonts/Poppins-SemiBold.ttf");
   font-weight: 600;
 }
-.tittle {
-  padding-top: 150px;
-  margin-left: 125px;
+.menu__txt {
   font-family: "Popins";
-  font-weight: 600;
-  font-size: 67px;
-  line-height: 58px;
-  letter-spacing: 5px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
   color: #454545;
 }
-.tittle::after {
+
+.name {
+  font-family: "Popins";
+  font-weight: 600;
+  font-size: 150px;
+  line-height: 150px;
+  color: #454545;
+}
+
+.job {
+  font-family: "Popins";
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 155px;
+  color: #454545;
+}
+
+.main-tittle {
+  font-family: "Popins";
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+  color: #454545;
+}
+.main-tittle::after {
   content: "";
-  margin-top: 70px;
+  margin-top: 10px;
   margin-bottom: 30px;
   display: block;
   width: 130px;
@@ -33,10 +54,22 @@
   background: #454545;
 }
 
-.txt--regular {
+.sub-tittle {
   font-family: "Popins";
   font-weight: 500;
-  font-size: 25px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #454545;
+}
+
+.description {
+  font-family: "Popins";
+  font-weight: 300;
+  font-size: 20px;
   line-height: 45px;
   color: #454545;
+}
+
+.a_link {
+  text-decoration: none;
 }/*# sourceMappingURL=fonts.css.map */
