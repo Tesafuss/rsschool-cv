@@ -4,21 +4,25 @@
   box-sizing: border-box;
 }
 
-main {
+.container {
   max-width: 1440px;
+}
+
+.menu {
+  max-width: 1440px;
+  display: flex;
+}
+.menu__list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+}
+
+main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.menu {
-  display: flex;
-}
-.menu__list {
-  width: 1440px;
-  list-style-type: none;
-  display: flex;
 }
 
 .person {

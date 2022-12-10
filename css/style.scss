@@ -3,23 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  max-width: 1440px;
+}
+.menu {
+  max-width: 1440px;
+  display: flex;
+
+  &__list {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+  }
+}
 
 main {
-  max-width: 1440px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.menu {
-  display: flex;
-
-  &__list {
-    width: 1440px;
-    list-style-type: none;
-    display: flex;
-  }
 }
 
 .person {
