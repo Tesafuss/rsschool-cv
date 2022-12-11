@@ -3,9 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth; 
+}
+
 .container {
   max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 .menu {
   max-width: 1440px;
   display: flex;
@@ -15,13 +25,6 @@
     list-style-type: none;
     display: flex;
   }
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .person {
@@ -42,14 +45,14 @@ main {
 }
 
 .contacts {
-  
-&__list {
-  list-style-type: none;
-}
 
-&__item:not(:last-child) {
-  margin-bottom: 30px;
-}
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .skill {
@@ -61,4 +64,58 @@ main {
       margin-bottom: 35px;
     }
   }
+}
+
+.education {  
+
+  &__place{
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__period {
+    min-width: 20%;
+  }
+
+  &__organizer {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+.direction {
+  margin-top: 5px;
+}
+
+.lang {
+
+  &__list {
+  list-style-type: none;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.last-block {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.info {
+  margin: 0;
+}
+
+.git:hover {
+  transition: 0.5s;
+  fill: rgb(88, 102, 124);
+}
+
+.rsschool:hover {
+  transition: 0.5s;
+  fill: rgb(88, 102, 124);
 }

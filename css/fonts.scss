@@ -25,6 +25,7 @@
 }
 
 .name {
+  text-align: center;
   font-family: "Popins";
   font-weight: 600;
   font-size: 150px;
@@ -33,6 +34,7 @@
 }
 
 .job {
+  text-align: center;
   font-family: "Popins";
   font-weight: 300;
   font-size: 55px;
@@ -64,7 +66,7 @@
 .sub-tittle {
   font-family: "Popins";
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 30px;
   color: #454545;
 }
@@ -76,7 +78,58 @@
   line-height: 45px;
   color: #454545;
 }
+.code-txt {
+  font-family: "Popins";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #454545;
+}
+.tittle-educat {
+  font-family: "Popins";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #454545;
+}
+
+.tittle-educat-sub {
+  font-family: "Popins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #454545;
+}
+
+.direction {
+  font-family: "Popins";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #454545;
+}
+
+.tittle-time {
+  font-family: "Popins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #454545;
+}
+
+.direction__main {
+  font-family: "Popins";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #454545;
+}
 
 .a_link {
   text-decoration: none;
+
+  &:hover {
+    transition: 1s;
+    text-shadow: rgb(87, 93, 112) 0 0 10px;
+  }
 }
