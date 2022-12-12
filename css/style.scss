@@ -1,0 +1,121 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu {
+  max-width: 1440px;
+  display: flex;
+
+  &__list {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+  }
+}
+
+.person {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__photo {
+    box-shadow: 25px -9px 62px rgb(121 149 175)
+  }
+
+  &__desription {
+    padding-left: 170px;
+  }
+}
+
+.contacts {
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.skill {
+
+  &__item {
+    list-style-type: none;
+
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.education {  
+
+  &__place{
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__period {
+    min-width: 20%;
+  }
+
+  &__organizer {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+.direction {
+  margin-top: 5px;
+}
+
+.lang {
+
+  &__list {
+  list-style-type: none;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.last-block {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.info {
+  margin: 0;
+}
+
+.git:hover {
+  transition: 0.5s;
+  fill: rgb(88, 102, 124);
+}
+
+.rsschool:hover {
+  transition: 0.5s;
+  fill: rgb(88, 102, 124);
+}
